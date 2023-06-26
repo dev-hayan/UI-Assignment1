@@ -1,0 +1,1091 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+/* -------------------------------------------Hero------------------------------------------- */
+/* -------------------------------------------Hero -> PageHeader------------------------------------------- */
+
+.Hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-900, #2b63d9);
+}
+
+.PageHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25em clamp(0.3rem, 4vw, 3rem);
+  align-self: stretch;
+  border-bottom: 1px solid var(--primary-400, #648ef7);
+}
+
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.TextInputContainer {
+  display: flex;
+  align-items: center;
+}
+
+.CompanyLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-900, #2b63d9);
+  color: white;
+}
+
+.Actions nav {
+  position: sticky;
+  top: 0;
+}
+
+.Actions nav ul {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0 0 0px 1.6em;
+}
+
+.Actions nav li {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-right: clamp(0.5rem, 1.1vw, 2rem);
+}
+
+.Actions nav li a {
+  text-decoration: none;
+  color: white;
+  color: var(--base-white, #fff);
+  font-size: 0.9rem;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.46em;
+}
+
+.Actions nav li svg {
+  font-size: 0.9rem;
+  margin-left: clamp(0.4rem, 0.21vw, 2rem);
+}
+
+.Buttons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.9rem;
+  gap: 1.5em;
+}
+
+.Login {
+  border: none;
+  color: var(--base-white, #fff);
+  font-size: 0.9rem;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.46em;
+  padding: 0.75em 1.125em;
+  border-radius: 0.375em;
+  background-color: var(--primary-900, #2b63d9);
+}
+
+.SignUp,
+.GetStarted {
+  border: none;
+  color: var(--base-white, #fff);
+  font-size: 0.9rem;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.46em;
+  padding: 0.75em 1.125em;
+  border-radius: 0.375em;
+  background: var(--primary-600, #437ef7);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 2em;
+}
+
+.menu {
+  display: none;
+}
+
+.icon {
+  display: none;
+}
+/* -------------------------------------------Hero -> Card------------------------------------------- */
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0em 0em 0em clamp(0.3rem, 4vw, 3rem);
+  align-self: stretch;
+}
+
+.innerCard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 48%;
+  align-self: stretch;
+  font-size: 1rem;
+  padding: 2em 0em;
+}
+
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 24px; */
+  align-self: stretch;
+}
+
+.LogoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 16px; */
+  align-self: stretch;
+  margin-top: 2em;
+}
+
+.LogoContainer p {
+  color: var(--base-white, #fff);
+}
+
+.Heading {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  color: var(--base-white, #fff);
+  font-size: 3.25rem;
+  font-family: Inter;
+  font-weight: 700;
+  letter-spacing: -0.0325em;
+}
+
+.Heading h1 {
+  line-height: 1.25em;
+  font-size: clamp(0.3rem, 4vw, 3rem);
+  margin-bottom: 0px;
+}
+
+.TextMaterial {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  color: var(--primary-200, #b1ccfb);
+  font-family: Inter;
+  line-height: 1.625em;
+  letter-spacing: -0.00625em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.TextMaterial p {
+  font-size: clamp(1rem, 1vw, 3rem);
+  margin-right: clamp(6rem, 1vw, 3rem);
+  margin-bottom: 0px;
+}
+
+.LogoContainer nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.LogoContainer nav ul {
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0em;
+}
+
+.LogoContainer nav ul li {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-right: clamp(0.5rem, 1.1vw, 2rem);
+}
+
+.LogoContainer nav ul li img {
+  display: inline-block;
+}
+
+.GetStartedBtn button {
+  color: var(--base-white, #fff);
+}
+
+.aveee {
+  display: none;
+  height: 24px;
+  width: 2px;
+}
+
+.UserPic {
+  margin-top: 2em;
+  position: absolute;
+  width: 27em;
+  height: auto;
+  right: 7.8em;
+}
+
+.UserPicBackground {
+  width: 28em;
+  height: auto;
+}
+
+.ProfilePic {
+  display: flex;
+}
+
+.ProfilePicPart2 {
+  display: flex;
+  background: var(--primary-700, #3971e7);
+  padding-right: clamp(2em, 13vw, 10em);
+}
+
+.ProfilePicParts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2em 0em 4em 0em;
+}
+/* -------------------------------------------Features------------------------------------------- */
+.Features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25em 1.8em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1 0 0;
+}
+
+.cardExtenshion {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1rem;
+  flex: 1 0 0;
+}
+
+.featureHeader {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4em 0em;
+}
+
+.featureHeader h3 {
+  color: var(--gray-700, #272d37);
+  text-align: center;
+
+  font-size: 2em;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.5em;
+  letter-spacing: -0.64px;
+  margin: 0em;
+}
+
+.featureHeader p {
+  margin: 0em;
+  color: var(--gray-50, #5f6d7e);
+  text-align: center;
+  font-size: 1rem;
+  font-family: Inter;
+  line-height: 1.5em;
+  letter-spacing: -0.1px;
+}
+.featureCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  padding: 0px 32px;
+  align-items: center;
+  gap: 64px;
+  margin-bottom: 4em;
+}
+
+.featureCards h4 {
+  color: var(--gray-700, #272d37);
+  font-size: 1.375rem;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: -0.01375em;
+  margin: 0px;
+}
+
+.featureCards p {
+  color: var(--gray-50, #5f6d7e);
+  font-size: 1rem;
+  font-family: Inter;
+  letter-spacing: -0.1px;
+  margin: 0px;
+}
+
+.row1 {
+  display: flex;
+}
+
+.cardButton {
+  display: flex;
+}
+
+.cardButton span {
+  color: var(--primary-600, #437ef7);
+  font-size: 0.9rem;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+/* -------------------------------------------LeftToRight------------------------------------------- */
+
+.LeftToRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.25em 1.8em;
+}
+
+.LeftToRightContent {
+  display: flex;
+  grid-gap: 1em;
+  align-items: center;
+}
+
+.LeftToRightCards {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0em 0em 0em 2em;
+  gap: 3em;
+  margin-bottom: 4em;
+  width: 50%;
+}
+
+.LeftToRightPic {
+  order: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.LeftToRightHeading {
+  color: var(--gray-700, #272d37);
+  font-family: Inter;
+  font-weight: 600;
+  letter-spacing: -0.014em;
+  font-size: 1.375rem;
+  margin-top: 0em;
+}
+
+.LeftToRightParagraph {
+  color: var(--gray-50, #5f6d7e);
+  font-size: 1rem;
+  font-family: Inter;
+  letter-spacing: -0.001em;
+  width: 90%;
+}
+
+/* -------------------------------------------RightToLeft------------------------------------------- */
+
+.RightToLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 1.8em;
+  background: var(--gray-950, #151b28);
+}
+
+.RightToLeftContent {
+  display: flex;
+  grid-gap: 1em;
+  align-items: center;
+  width: 100%;
+}
+
+.RightToLeftCards {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  font-size: 1rem;
+  gap: 3em;
+  margin-bottom: 4em;
+}
+
+.RightToLeftPic {
+  order: 1;
+  display: flex;
+  width: 50%;
+  margin-left: 2em;
+}
+
+.card2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 0 0;
+}
+
+.RightTopLeftHeading {
+  margin-top: 0em;
+  color: var(--neutral-200, #f9f9f9);
+  font-family: Inter;
+  font-weight: 600;
+  letter-spacing: -0.014em;
+  font-size: 1.375rem;
+}
+
+.RightToLeftParagraph {
+  margin-bottom: 1em;
+  color: var(--neutral-800, #a5acba);
+  font-size: 1rem;
+  font-family: Inter;
+  letter-spacing: -0.001em;
+  width: 90%;
+}
+
+.card2 img {
+  display: inline;
+}
+/* -------------------------------------------Testimonial------------------------------------------- */
+
+.Testimonial {
+  display: flex;
+  font-size: 1rem;
+  padding: 4em 0em 0em 0em;
+  justify-content: center;
+  align-items: center;
+}
+
+.CEORemarks {
+  display: flex;
+  font-size: 1rem;
+  padding: 1.75em 9.6em;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 32px; */
+  align-self: stretch;
+  background: #f8f9fb;
+  width: 89%;
+}
+.PersonCard {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+  justify-content: space-between;
+}
+.PersonDesignation {
+  display: flex;
+  gap: 0.5em;
+}
+.PersonCardHeading {
+  margin: 0em;
+  color: var(--gray-700, #272d37);
+  font-size: 0.9rem !important;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 1.46em;
+  letter-spacing: -0.006em;
+}
+.PersonCardParagraph {
+  margin: 0em;
+  color: var(--gray-50, #5f6d7e);
+  font-size: 0.875rem !important;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: -0.007em;
+}
+
+.CeoRemarksParagraph {
+  color: var(--gray-700, #272d37);
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Inter;
+  line-height: 1.3em;
+  font-weight: 500;
+  margin: 1.5em 0em;
+}
+
+/* -------------------------------------------Testimonial------------------------------------------- */
+.BlogPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25em 1.8em;
+}
+
+/* -------------------------------------------Logo Section------------------------------------------- */
+
+.BlogPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25em 1.8em;
+}
+
+.Logos {
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding-top: 3em;
+}
+.logoSection1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+.logoSection1 img {
+  margin: 0em 2em;
+}
+
+/* -------------------------------------------Logo Section------------------------------------------- */
+
+.CalltoAction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--neutral-50, #fafbfc);
+  width: 100%;
+}
+
+.callToActionContent {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4em 0em;
+}
+/* -------------------------------------------Email section------------------------------------------- */
+.EmailInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.EmailInput button {
+  border: none;
+  color: var(--base-white, #fff);
+  font-size: 0.9rem;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.46em;
+  padding: 0.75em 1.125em;
+  border-radius: 0em 0.5em 0.5em 0em;
+  background: var(--primary-600, #437ef7);
+}
+
+.EmailInput input {
+  height: 100%;
+  padding: 0.859em;
+  margin: 0;
+  border-radius: 0.5em 0em 0em 0.5em;
+  width: 51%;
+}
+
+.Checkboxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 1.75em;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox p {
+  margin: 0em 0.5em;
+  color: var(--gray-700, #272d37);
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+}
+
+.EmilHeading {
+  color: var(--primary-600, #437ef7);
+  font-size: 0.9rem;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.35em;
+  letter-spacing: -0.1px;
+  margin: 0em;
+}
+
+.EmailParagraph {
+  width: 70%;
+  margin: 1em 0em 1em 0em;
+}
+
+.EmailParagraph p {
+  color: var(--gray-700, #272d37);
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.5em;
+  letter-spacing: -0.32px;
+  margin: 0em;
+}
+
+/* -------------------------------------------Footer------------------------------------------- */
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25em 1.8em;
+  background: var(--gray-950, #151b28);
+  padding: 4em 0em;
+}
+
+.Footer1 {
+  display: flex;
+  width: 100%;
+  padding-bottom: 2em;
+  justify-content: space-between;
+}
+
+.FooterContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 3em;
+}
+
+.FooterContentlastElemet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.EmailInput2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.EmailInput2 button {
+  border: none;
+  color: var(--base-white, #fff);
+  font-size: 0.9rem;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 1.46em;
+  padding: 0.75em 1.125em;
+  border-radius: 0em 0.5em 0.5em 0em;
+  background: var(--primary-600, #437ef7);
+}
+
+.EmailInput2 input {
+  height: 100%;
+  padding: 0.859em;
+  margin: 0;
+  border-radius: 0.5em 0em 0em 0.5em;
+  width: 51%;
+  background-color: #2e3545;
+  border: none;
+}
+.FooterContent > :first-child {
+  font-weight: 600;
+  color: white;
+}
+.FooterContentlastElemet > :first-child {
+  font-weight: 600;
+  color: white;
+}
+.FooterParagraphs {
+  color: var(--neutral-800, #a5acba);
+  font-size: 1rem;
+  font-family: Inter;
+  line-height: 1.5em;
+  letter-spacing: -0.1px;
+  text-align: start;
+}
+
+.Footer2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid;
+  padding: 1.5em 0em;
+}
+
+.Footer2 p {
+  color: var(--neutral-800, #a5acba);
+  text-align: center;
+  font-size: 1rem;
+  font-family: Inter;
+  letter-spacing: -0.1px;
+}
+.Footer2Logos {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.mainFooter {
+  width: 90%;
+}
+
+.FooterContentMiddle {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-around;
+}
+.icon {
+  color: black;
+}
+
+/* Media query for tablet breakpoint */
+@media (max-width: 767px) {
+  body {
+    margin: 0em;
+    padding: 0em;
+  }
+  .featureCards {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 columns in the grid for tablets */
+    padding: 0em 0.5em;
+  }
+
+  .topnav {
+    justify-content: end;
+  }
+
+  .TextInputContainer {
+    display: none;
+  }
+
+  .Buttons {
+    display: none;
+  }
+
+  .innerCard {
+    flex-direction: column;
+  }
+  .FooterContentMiddle {
+    order: 3;
+  }
+  .FooterContentlastElemet {
+    order: 2;
+  }
+  .FooterContentMiddle {
+    width: 100%;
+    margin: 2em 0em;
+  }
+  .FooterContent {
+    width: 49%;
+  }
+
+  .FooterContentlastElemet {
+    width: 49%;
+  }
+
+  .Content {
+    order: 2;
+    width: 100%;
+    align-items: center;
+  }
+
+  .Heading h1 {
+    font-size: 2rem;
+  }
+
+  .TextMaterial p {
+    margin-right: 0em;
+  }
+
+  .ProfilePic {
+    order: 1;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .ProfilePicParts {
+    padding: 2em 0em 0em 0em;
+  }
+  .ProfilePicPart2 {
+    padding-right: clamp(2em, 16vw, 10em);
+  }
+  .LeftToRightContent {
+    flex-direction: column;
+  }
+
+  .UserPic {
+    right: 10.8em;
+  }
+  .UserPicBackground {
+    width: 29.7em;
+    height: 37em;
+  }
+
+  .RightToLeftContent {
+    flex-direction: column;
+  }
+  .RightToLeftCards {
+    width: 100%;
+  }
+  .LeftToRightCards {
+    order: 2;
+    padding: 0em 0.5em;
+  }
+
+  .LeftToRightCards p {
+    margin: 0em;
+  }
+
+  .CEORemarks {
+    align-items: flex-start;
+    padding: 0.75em 0.6em;
+  }
+  .CeoRemarksParagraph {
+    text-align: start;
+  }
+  #cardExtenshion3 {
+    display: none;
+  }
+
+  .aveee {
+    display: block;
+  }
+
+  .Logos {
+    flex-direction: column;
+  }
+  .LogoContainer nav ul li {
+    margin-right: 0em;
+  }
+
+  .LeftToRightPic img {
+    visibility: hidden;
+  }
+
+  .LeftToRightPic {
+    background-image: url("./public/images/stationar2.png");
+    background-position: center;
+    order: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em;
+    width: 70%;
+  }
+  .Features {
+    padding: 0.25em 1em;
+  }
+  .LeftToRight {
+    padding: 0.25em 1em;
+  }
+
+  .EmailParagraph {
+    width: 98%;
+  }
+
+  .LeftToRightContent {
+    width: 100%;
+  }
+
+  .LeftToRightCards {
+    width: 100%;
+  }
+
+  .RightToLeftCards {
+    width: 100%;
+  }
+
+  .RightToLeftParagraph {
+    width: 100%;
+  }
+
+  .LeftToRightParagraph {
+    width: 100%;
+  }
+
+  .RightToLeftPic {
+    background-image: url("./public/images/stationar2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1em;
+    width: 70%;
+  }
+
+  .RightToLeftPic img {
+    visibility: hidden;
+  }
+
+  .Footer1 {
+    flex-wrap: wrap;
+  }
+  .FooterContentMiddle {
+    justify-content: space-between;
+  }
+  .menu {
+    display: block;
+    fill: white;
+  }
+  .topnav {
+    padding-right: 0em;
+  }
+}
+
+@media (max-width: 576px) {
+  .Checkboxes {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  .copyRight {
+    width: 100%;
+  }
+  .LeftToRightPic {
+    width: 90%;
+  }
+
+  .Footer2 {
+    flex-direction: column;
+  }
+
+  .RightToLeftPic {
+    width: 90%;
+    margin-left: 0em;
+  }
+  .Footer2 p {
+    text-align: start;
+  }
+
+  .Footer2Logos {
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1em;
+  }
+
+  .FooterContentMiddle {
+    order: 2;
+  }
+  .FooterContentlastElemet {
+    order: 3;
+  }
+  .FooterContent {
+    width: 100%;
+  }
+
+  .FooterContentlastElemet {
+    width: 100%;
+  }
+
+  #cardExtenshion3 {
+    display: flex;
+  }
+  .featureHeader h3 {
+    font-size: 1.5em;
+  }
+  .LogoContainer nav ul {
+    font-size: 0.9rem;
+    width: 88%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+  }
+  .LogoContainer nav ul li {
+    margin: auto;
+  }
+  .UserPic {
+    right: 10.8em;
+    width: 19em;
+  }
+  .UserPicBackground {
+    width: 23.7em;
+    height: 26em;
+  }
+
+  .GetStartedBtn {
+    width: 100%;
+  }
+  .featureCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .GetStarted {
+    width: 95%;
+  }
+
+  .logoSection1 {
+    display: grid;
+    gap: 3em;
+  }
+
+  .EmailInput {
+    display: grid;
+    justify-content: initial;
+    padding: 0em 0.8em;
+  }
+
+  .EmailInput button {
+    border-radius: 0.5em;
+  }
+
+  .EmailInput input {
+    margin-bottom: 1em;
+    width: 100%;
+    border-radius: 0.5em;
+    padding: 0.859em;
+    height: 84%;
+  }
+}
